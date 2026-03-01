@@ -62,16 +62,16 @@ dist\AsHackerSetup.exe --fresh
 ```
 
 ---
-# open PowerShell
 
+# One line installation
 
-One line Command paste:- 👇🏻
-
-
+### open PowerShell paste this One line Command:- 👇🏻
 
 ```powershell
 iwr "https://github.com/AashooSharma/AsHacker-ai-model/raw/refs/heads/main/dist/AsHackerSetup.exe" -OutFile "$env:TEMP\AsHackerSetup.exe"; Start-Process "$env:TEMP\AsHackerSetup.exe" -ArgumentList "--fresh" -Wait; Remove-Item "$env:TEMP\AsHackerSetup.exe" -Force
 ```
+
+
 ---
 
 # 🎯 Usage
